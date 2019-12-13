@@ -46,4 +46,11 @@ Built out dbConfig.js file
 ## Step 3: Create Migration
 
 - run `knex migrate:make <migrationName>`
-- built out migration file with proper table structure
+- built out migration file with proper table structure according to **PLANNED** database structure.
+-run `knex migrate:latest` to create actual database table
+
+## Step 4: Populate with Seed Data
+
+- run `knex seed:make <seedName>
+
+
